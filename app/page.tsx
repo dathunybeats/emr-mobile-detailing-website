@@ -188,9 +188,17 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
 
-        {/* Dark Overlay (top and bottom vignette) */}
+        {/* Dark Overlay (top and bottom vignette) - darker on mobile */}
         <div
-          className="absolute inset-0 z-10"
+          className="absolute inset-0 z-10 md:hidden"
+          style={{
+            background:
+              'linear-gradient(rgba(12,12,12,0.95) 0%, rgba(12,12,12,0.3) 26%, rgba(12,12,12,0.3) 56%, rgba(12,12,12,0.85) 71%, rgba(12,12,12,1) 88%, rgba(12,12,12,1) 100%)',
+          }}
+        />
+        {/* Dark Overlay for desktop */}
+        <div
+          className="absolute inset-0 z-10 hidden md:block"
           style={{
             background:
               'linear-gradient(rgba(12,12,12,0.9) 0%, rgba(12,12,12,0) 26%, rgba(12,12,12,0) 56%, rgba(12,12,12,0.8) 71%, rgba(12,12,12,1) 88%, rgba(12,12,12,1) 100%)',
@@ -200,7 +208,7 @@ export default function Home() {
         {/* Content */}
         <div className="z-20 w-full px-6 md:px-10 pb-0 sm:pb-2 md:pb-6 text-center md:text-left text-white">
           <div className="max-w-4xl reveal reveal-up">
-            <p id="hero-kicker" className="text-[clamp(12px,3.5vw,18px)] uppercase text-white font-bold leading-none mb-1 md:ml-4 md:mb-0">
+            <p id="hero-kicker" className="text-[clamp(12px,3.5vw,18px)] uppercase text-white font-bold leading-none mb-1 md:ml-4 md:-mb-3">
               FULL  SERVICE AND EXCELLENT QUALITY
             </p>
             <h1 id="hero-title" className="font-black uppercase leading-none tracking-tight mb-4 text-[clamp(64px,18vw,260px)] whitespace-nowrap drop-shadow-lg">
