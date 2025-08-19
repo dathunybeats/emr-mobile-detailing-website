@@ -139,7 +139,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="absolute top-0 left-0 w-full z-30">
         <div className="max-w-7xl mx-auto flex justify-between items-center p-4 text-white">
-          <h1 className="text-2xl font-bold md:-ml-15">Auto Detailing Pro</h1>
+          <h1 className="text-2xl font-bold md:-ml-15">EMR Mobile Detailing</h1>
           <div className="hidden md:flex space-x-6">
             <a href="#home" className="hover:text-red-400">Home</a>
             <a href="#services" className="hover:text-red-400">Services</a>
@@ -209,7 +209,7 @@ export default function Home() {
         <div className="z-20 w-full px-6 md:px-10 pb-0 sm:pb-2 md:pb-6 text-center md:text-left text-white">
           <div className="max-w-4xl reveal reveal-up">
             <p id="hero-kicker" className="text-[clamp(12px,3.5vw,18px)] uppercase text-white font-bold leading-none mb-1 md:ml-4 md:-mb-3">
-              FULL  SERVICE AND EXCELLENT QUALITY
+              PRECISION WORK AND SATISFACTION GUARANTEED
             </p>
             <h1 id="hero-title" className="font-black uppercase leading-none tracking-tight mb-4 text-[clamp(64px,18vw,260px)] whitespace-nowrap drop-shadow-lg">
               CAR DETAILING
@@ -275,7 +275,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300" />
               <div className="absolute left-6 bottom-6 transform transition-transform duration-300 group-hover:-translate-y-3">
                 <h3 className="text-2xl md:text-3xl font-extrabold tracking-wide">PROTECTION FILM</h3>
-                <p className="text-white/80">Lorem ipsum dolor sit</p>
+                <p className="text-white/80">Professional paint protection services</p>
                 {/* Arrow that appears on hover */}
                 <div className="flex items-center mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -295,7 +295,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300" />
               <div className="absolute left-6 bottom-6 transform transition-transform duration-300 group-hover:-translate-y-3">
                 <h3 className="text-2xl md:text-3xl font-extrabold tracking-wide">STEAM CLEANING</h3>
-                <p className="text-white/80">Lorem ipsum dolor sit</p>
+                <p className="text-white/80">Deep interior sanitization & cleaning</p>
                 {/* Arrow that appears on hover */}
                 <div className="flex items-center mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -315,7 +315,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300" />
               <div className="absolute left-6 bottom-6 transform transition-transform duration-300 group-hover:-translate-y-3">
                 <h3 className="text-2xl md:text-3xl font-extrabold tracking-wide">RIMS & TIRES WASHING</h3>
-                <p className="text-white/80">Lorem ipsum dolor sit</p>
+                <p className="text-white/80">Complete wheel and tire detailing</p>
                 {/* Arrow that appears on hover */}
                 <div className="flex items-center mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -335,7 +335,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300" />
               <div className="absolute left-6 bottom-6 transform transition-transform duration-300 group-hover:-translate-y-3">
                 <h3 className="text-2xl md:text-3xl font-extrabold tracking-wide">CERAMIC COATING</h3>
-                <p className="text-white/80">Lorem ipsum dolor sit</p>
+                <p className="text-white/80">Premium long-lasting paint protection</p>
                 {/* Arrow that appears on hover */}
                 <div className="flex items-center mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -358,10 +358,9 @@ export default function Home() {
                 FULL-SERVICE<br />
                 <span className="text-red-600">DETAILING FOR CARS</span>
               </h2>
-              <h3 className="text-2xl font-semibold mb-4">Welcome to DetailX!</h3>
+              <h3 className="text-2xl font-semibold mb-4">Welcome to EMR Mobile Detailing!</h3>
               <p className="text-white/80 max-w-xl mb-8">
-                Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco.
+                Professional mobile detailing services in Windsor, Ontario. We offer precision work with interior & exterior packages, guaranteeing your satisfaction with every detail.
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 bg-white/5 border border-white/10 rounded flex items-center justify-center">
@@ -370,7 +369,7 @@ export default function Home() {
                     <path d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h2.019c.98 0 1.84.63 2.14 1.563l.723 2.223a2.25 2.25 0 01-.52 2.287l-1.21 1.21a15.042 15.042 0 006.324 6.324l1.21-1.21a2.25 2.25 0 012.287-.52l2.223.723a2.25 2.25 0 011.563 2.14V19.5a2.25 2.25 0 01-2.25 2.25h-1.5C8.552 21.75 2.25 15.448 2.25 7.5v-0.75z"/>
                   </svg>
                 </div>
-                <div className="text-xl font-semibold tracking-wide">0 800 555 44 33</div>
+                <div className="text-xl font-semibold tracking-wide">519-999-5990</div>
               </div>
             </div>
 
@@ -409,7 +408,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-extrabold tracking-wide">PREMIUM QUALITY</h3>
-              <p className="text-white/70 mt-3">Sed do eiusmod tempor</p>
+              <p className="text-white/70 mt-3">Top-tier products and techniques</p>
               <div className="flex items-center justify-center gap-1 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
@@ -425,7 +424,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-extrabold tracking-wide">LICENSE & INSURANCE</h3>
-              <p className="text-white/70 mt-3">Sed do eiusmod tempor</p>
+              <p className="text-white/70 mt-3">Fully licensed and insured service</p>
               <div className="flex items-center justify-center gap-1 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
@@ -444,7 +443,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-extrabold tracking-wide">CERTIFIED EXPERTS</h3>
-              <p className="text-white/70 mt-3">Sed do eiusmod tempor</p>
+              <p className="text-white/70 mt-3">Professional trained technicians</p>
               <div className="flex items-center justify-center gap-1 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
@@ -466,7 +465,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-extrabold tracking-wide">RANGE OF SERVICE</h3>
-              <p className="text-white/70 mt-3">Sed do eiusmod tempor</p>
+              <p className="text-white/70 mt-3">Complete automotive care solutions</p>
               <div className="flex items-center justify-center gap-1 mt-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
                 <span className="w-1.5 h-1.5 rounded-full bg-white/40 group-hover:bg-red-500 transition-colors duration-300" />
@@ -808,16 +807,16 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-red-400">Auto Detailing Pro</h3>
-              <p>Professional auto detailing services for all vehicle types.</p>
+              <h3 className="text-xl font-semibold mb-4 text-red-400">EMR Mobile Detailing</h3>
+              <p>Professional mobile detailing services in Windsor, Ontario. Interior & exterior packages with precision work and satisfaction guaranteed.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Services</h4>
               <ul className="space-y-2">
-                <li>Exterior Detailing</li>
-                <li>Interior Detailing</li>
-                <li>Paint Correction</li>
-                <li>Ceramic Coating</li>
+                <li>Mobile Detailing</li>
+                <li>Interior Packages</li>
+                <li>Exterior Packages</li>
+                <li>Precision Work</li>
               </ul>
             </div>
             <div>
@@ -839,7 +838,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p>&copy; 2024 Auto Detailing Pro. All rights reserved.</p>
+            <p>&copy; 2024 EMR Mobile Detailing. All rights reserved.</p>
           </div>
         </div>
       </footer>

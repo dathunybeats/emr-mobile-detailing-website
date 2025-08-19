@@ -35,10 +35,10 @@ const barlowCondensed = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Auto Detailing Pro - Professional Car Detailing Services",
-  description: "Premium car detailing services including ceramic coating, paint protection, interior cleaning, and full-service auto detailing. Professional results guaranteed.",
-  keywords: "car detailing, auto detailing, ceramic coating, paint protection, interior cleaning, car wash, professional detailing",
-  authors: [{ name: "Auto Detailing Pro" }],
+  title: "EMR Mobile Detailing - Professional Car Detailing Windsor, Ontario",
+  description: "Professional mobile car detailing services in Windsor, Ontario. Interior & exterior packages, precision work, satisfaction guaranteed. Call 519-999-5990 today!",
+  keywords: "mobile car detailing, Windsor Ontario detailing, interior exterior packages, precision detailing, satisfaction guaranteed, EMR automotive",
+  authors: [{ name: "EMR Mobile Detailing" }],
   viewport: "width=device-width, initial-scale=1",
 };
 
